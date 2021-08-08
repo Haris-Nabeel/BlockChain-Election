@@ -54,13 +54,13 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"candidates\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"candidatesCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Election.sol\":\"Election\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Election.sol\":{\"keccak256\":\"0x6c737214599af626f7b8d9216efc5567eed97f243fe82ac33f13f03859143887\",\"urls\":[\"bzz-raw://2752e07dbc2e84706ff8c6bfeba42258ef1008dbcfca8203369837853cd72eee\",\"dweb:/ipfs/QmboTc6UTbtcQ6UeS7wCiZLgX4j5LNhM6yK6YU9FgeCuFj\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506100556040518060400160405280600c81526020017f4861726973204e616265656c000000000000000000000000000000000000000081525061009e60201b60201c565b6100996040518060400160405280600a81526020017f496d72616e204b68616e0000000000000000000000000000000000000000000081525061009e60201b60201c565b6101be565b6001600081548092919060010191905055506040518060600160405280600154815260200182815260200160008152506000806001548152602001908152602001600020600082015181600001556020820151816001019080519060200190610108929190610119565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061015a57805160ff1916838001178555610188565b82800160010185558215610188579182015b8281111561018757825182559160200191906001019061016c565b5b5090506101959190610199565b5090565b6101bb91905b808211156101b757600081600090555060010161019f565b5090565b90565b61020b806101cd6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80632d35a8a21461003b5780633477ee2e14610059575b600080fd5b61004361010e565b6040518082815260200191505060405180910390f35b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610114565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156100d15780820151818401526020810190506100b6565b50505050905090810190601f1680156100fe5780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b60015481565b6000602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101c65780601f1061019b576101008083540402835291602001916101c6565b820191906000526020600020905b8154815290600101906020018083116101a957829003601f168201915b505050505090806002015490508356fea265627a7a72315820609bcbf2be12bb015bc601519ccd961a047bef7b13e4fed43a00004d0617cd9764736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80632d35a8a21461003b5780633477ee2e14610059575b600080fd5b61004361010e565b6040518082815260200191505060405180910390f35b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610114565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156100d15780820151818401526020810190506100b6565b50505050905090810190601f1680156100fe5780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b60015481565b6000602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101c65780601f1061019b576101008083540402835291602001916101c6565b820191906000526020600020905b8154815290600101906020018083116101a957829003601f168201915b505050505090806002015490508356fea265627a7a72315820609bcbf2be12bb015bc601519ccd961a047bef7b13e4fed43a00004d0617cd9764736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"candidates\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"voteCount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"candidatesCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Election.sol\":\"Election\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Election.sol\":{\"keccak256\":\"0x3eb1c0e959dedc920f6e4b797bd25706352376633a1c5637aec43ccec666fb85\",\"urls\":[\"bzz-raw://cfdc13dd2acb4ea89c8556c350785890dfbf25c360a99c9ecdbb90662dd2d316\",\"dweb:/ipfs/QmfH7yhEwwYYk8XnyWFYvLAPmR5bimGxxXFAjKYAcZnjRy\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506100556040518060400160405280600c81526020017f4e6177617a20536861726966000000000000000000000000000000000000000081525061009e60201b60201c565b6100996040518060400160405280600a81526020017f496d72616e204b68616e0000000000000000000000000000000000000000000081525061009e60201b60201c565b6101be565b6001600081548092919060010191905055506040518060600160405280600154815260200182815260200160008152506000806001548152602001908152602001600020600082015181600001556020820151816001019080519060200190610108929190610119565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061015a57805160ff1916838001178555610188565b82800160010185558215610188579182015b8281111561018757825182559160200191906001019061016c565b5b5090506101959190610199565b5090565b6101bb91905b808211156101b757600081600090555060010161019f565b5090565b90565b61020b806101cd6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80632d35a8a21461003b5780633477ee2e14610059575b600080fd5b61004361010e565b6040518082815260200191505060405180910390f35b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610114565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156100d15780820151818401526020810190506100b6565b50505050905090810190601f1680156100fe5780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b60015481565b6000602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101c65780601f1061019b576101008083540402835291602001916101c6565b820191906000526020600020905b8154815290600101906020018083116101a957829003601f168201915b505050505090806002015490508356fea265627a7a72315820c6a277e0090d4692eb9c4be9229a745656561f2e06262f23e4ed23c61cf3f89864736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80632d35a8a21461003b5780633477ee2e14610059575b600080fd5b61004361010e565b6040518082815260200191505060405180910390f35b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610114565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b838110156100d15780820151818401526020810190506100b6565b50505050905090810190601f1680156100fe5780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b60015481565b6000602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101c65780601f1061019b576101008083540402835291602001916101c6565b820191906000526020600020905b8154815290600101906020018083116101a957829003601f168201915b505050505090806002015490508356fea265627a7a72315820c6a277e0090d4692eb9c4be9229a745656561f2e06262f23e4ed23c61cf3f89864736f6c63430005100032",
   "sourceMap": "28:617:0:-;;;543:99;8:9:-1;5:2;;;30:1;27;20:12;5:2;543:99:0;573:28;;;;;;;;;;;;;;;;;;:12;;;:28;;:::i;:::-;610:26;;;;;;;;;;;;;;;;;;:12;;;:26;;:::i;:::-;28:617;;355:163;417:15;;:17;;;;;;;;;;;;;475:35;;;;;;;;485:15;;475:35;;;;502:5;475:35;;;;508:1;475:35;;;445:10;:27;456:15;;445:27;;;;;;;;;;;:65;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;355:163;:::o;28:617::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
   "deployedSourceMap": "28:617:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:617:0;;;;;;;;;;;;;;;;;;;;;;;;292:27;;;:::i;:::-;;;;;;;;;;;;;;;;;;;208:44;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;208:44:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;208:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;292:27;;;;:::o;208:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.16;\r\n\r\ncontract Election{\r\n\r\n    // Candidate Attributes\r\n    struct Candidate{\r\n\r\n        uint id;\r\n        string name;\r\n        uint voteCount;\r\n    } \r\n\r\n    // Store Candidates\r\n    mapping(uint => Candidate) public candidates;\r\n\r\n    // Store Candidates Count\r\n    uint public candidatesCount;\r\n\r\n    // Adding a Candidate\r\n    function addCandidate(string memory _name) private {\r\n        candidatesCount++;\r\n        candidates[candidatesCount] = Candidate(candidatesCount, _name,0);\r\n    }\r\n\r\n    // Contructor\r\n  constructor() public {\r\n      addCandidate(\"Haris Nabeel\");\r\n      addCandidate(\"Imran Khan\");\r\n  }\r\n}",
-  "sourcePath": "C:\\Users\\haris\\Desktop\\election\\contracts\\Election.sol",
+  "source": "pragma solidity ^0.5.16;\r\n\r\ncontract Election{\r\n\r\n    // Candidate Attributes\r\n    struct Candidate{\r\n\r\n        uint id;\r\n        string name;\r\n        uint voteCount;\r\n    } \r\n\r\n    // Store Candidates\r\n    mapping(uint => Candidate) public candidates;\r\n\r\n    // Store Candidates Count\r\n    uint public candidatesCount;\r\n\r\n    // Adding a Candidate\r\n    function addCandidate(string memory _name) private {\r\n        candidatesCount++;\r\n        candidates[candidatesCount] = Candidate(candidatesCount, _name,0);\r\n    }\r\n\r\n    // Contructor\r\n  constructor() public {\r\n      addCandidate(\"Nawaz Sharif\");\r\n      addCandidate(\"Imran Khan\");\r\n  }\r\n}",
+  "sourcePath": "C:\\Users\\haris\\Documents\\GitHub\\BlockChain-Election\\contracts\\Election.sol",
   "ast": {
     "absolutePath": "project:/contracts/Election.sol",
     "exportedSymbols": {
@@ -511,7 +511,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "4861726973204e616265656c",
+                        "hexValue": "4e6177617a20536861726966",
                         "id": 37,
                         "isConstant": false,
                         "isLValue": false,
@@ -522,17 +522,17 @@
                         "src": "586:14:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_205290d7a622e4727e369562b232f4ae54c2794ea5d4bb8f90ba3d5baf1e5e38",
-                          "typeString": "literal_string \"Haris Nabeel\""
+                          "typeIdentifier": "t_stringliteral_40252ff1b37af6bb404463d0bc1ae40120315b70bb8c0367eeb2d1226a644ca8",
+                          "typeString": "literal_string \"Nawaz Sharif\""
                         },
-                        "value": "Haris Nabeel"
+                        "value": "Nawaz Sharif"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_205290d7a622e4727e369562b232f4ae54c2794ea5d4bb8f90ba3d5baf1e5e38",
-                          "typeString": "literal_string \"Haris Nabeel\""
+                          "typeIdentifier": "t_stringliteral_40252ff1b37af6bb404463d0bc1ae40120315b70bb8c0367eeb2d1226a644ca8",
+                          "typeString": "literal_string \"Nawaz Sharif\""
                         }
                       ],
                       "id": 36,
@@ -1191,8 +1191,8 @@
                             "attributes": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_stringliteral_205290d7a622e4727e369562b232f4ae54c2794ea5d4bb8f90ba3d5baf1e5e38",
-                                  "typeString": "literal_string \"Haris Nabeel\""
+                                  "typeIdentifier": "t_stringliteral_40252ff1b37af6bb404463d0bc1ae40120315b70bb8c0367eeb2d1226a644ca8",
+                                  "typeString": "literal_string \"Nawaz Sharif\""
                                 }
                               ],
                               "overloadedDeclarations": [
@@ -1209,15 +1209,15 @@
                           {
                             "attributes": {
                               "argumentTypes": null,
-                              "hexvalue": "4861726973204e616265656c",
+                              "hexvalue": "4e6177617a20536861726966",
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "lValueRequested": false,
                               "subdenomination": null,
                               "token": "string",
-                              "type": "literal_string \"Haris Nabeel\"",
-                              "value": "Haris Nabeel"
+                              "type": "literal_string \"Nawaz Sharif\"",
+                              "value": "Nawaz Sharif"
                             },
                             "id": 37,
                             "name": "Literal",
@@ -1324,12 +1324,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xd723070caac8BF53fe98c6824bF36a07711E1487",
-      "transactionHash": "0x4ea83fb789ac898896815f5f5c80e6e486bf46d1e2962d48d0b50cd9ce6ebaf7"
+      "address": "0x519911876743eF1b1E57E0ad45A3Ce4c8e01f613",
+      "transactionHash": "0x348491cd3938c2c679a2206cfee02ec0649e3242b60f07fc12db10ad5dc11950"
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-06T17:52:35.559Z",
+  "updatedAt": "2021-08-08T16:21:26.730Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
